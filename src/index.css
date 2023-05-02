@@ -1,12 +1,16 @@
-body {
+html,body, svg {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0E1014;
+  color: #E4E5EA;
+  margin: 0; padding: 0;
+  background-image: url("./../src/components/resources/images/ball-group.svg");
 }
-
+body::-webkit-scrollbar { width: 0; }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -1,0 +1,37 @@
+.header__navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__navigation a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E4E5EA;
+}
+@media screen and (max-width: 850px) {
+    .header__navigation {
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header__navigation a {
+        font-family: Inter;
+        font-size: 12px;
+        line-height: 15px;
+        color: #E4E5EA;
+    }
+    .header__navigation {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+    .certificates {
+        display: none;
+    }
+}

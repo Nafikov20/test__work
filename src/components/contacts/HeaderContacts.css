@@ -1,0 +1,20 @@
+.header__contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+@media screen and (max-width: 1200px) {
+    .header__contacts{
+        display: block;
+    }
+}
+@media screen and (max-width: 450px) {
+    .header__contacts {
+        display: none;
+    }
+}
+.header__contacts-logo {
+    display: flex;
+    gap: 34px;
+}

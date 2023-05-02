@@ -1,0 +1,24 @@
+.footer__nav-comp span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656566;
+}
+.footer__nav-comp-list {
+    margin-top: 20px;
+}
+.footer__nav-comp-item a{
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    color: #E4E5EA;
+
+}

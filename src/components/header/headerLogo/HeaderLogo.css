@@ -1,0 +1,12 @@
+@media screen and (max-width: 450px) {
+    .header__logo {
+        display: none;
+    }
+}
+.header__logo-title {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #E4E5EA;
+}

@@ -1,0 +1,39 @@
+.footer__nav-menu span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #656566;
+}
+.footer__nav-menu-list {
+    column-count: 2;
+    margin-top: 20px;
+}
+
+.footer__nav-menu-item a{
+    text-decoration: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    color: #E4E5EA;
+
+}
+@media screen and (max-width: 850px){
+    .footer__nav-menu-list {
+        column-count: 1;
+    }
+}
+@media screen and (max-width: 450px) {
+    .footer__nav-menu {
+        margin-top: 30px;
+    }
+    .footer__nav-menu-list {
+        column-count: 2;
+    }
+}

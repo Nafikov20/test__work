@@ -1,0 +1,109 @@
+.consultation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 124px;
+}
+.consultation__content button{
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    border: 0;
+    padding: 0;
+    margin-top: 61px;
+    color: #E4E5EA;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.consultation__content-title {
+    display: flex;
+    text-align: right;
+}
+.consultation__content-title p {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #E4E5EA;
+}
+.consultation__content-title span {
+    background: linear-gradient(307deg, #FCB045 32.14%, #FD1D1D 119.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.consultation__list {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 30px;
+    margin-top: 41px;
+}
+.consultation__item {
+    max-width: 164px;
+    display: flex;
+    flex-direction: column;
+
+}
+.consultation__item span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: right;
+
+    color: #E4E5EA;
+    margin-top: 0px;
+}
+.consultation__item p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    margin-top: 6px;
+
+    color: #E4E5EA;
+}
+@media screen and (max-width: 450px) {
+    .consultation__content {
+        align-items: flex-start;
+        width: 100%;
+        margin-left: 16px;
+        margin-bottom: 59px;
+        margin-top: 45px;
+    }
+    .consultation__content button {
+        display: none;
+    }
+    .consultation__content-title p {
+        text-align: left;
+    }
+    .consultation__list {
+        gap: 14px;
+    }
+    .consultation__item {
+        max-width: 164px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    .consultation__item div {
+        width: 20px;
+        height: 1px;
+        background: linear-gradient(307deg, #FCB045 32.14%, #FD1D1D 119.36%), #E4E5EA;
+    }
+    .consultation__item p{
+        display: none;
+    }
+}

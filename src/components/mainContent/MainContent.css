@@ -1,0 +1,14 @@
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 450px) {
+    .main__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../../../src/components/resources/images/bg-mob.svg");
+
+    }
+}
