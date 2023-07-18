@@ -1,3 +1,5 @@
+К сожалению, после билда github не отобразил SPA. Чтобы просмотреть верстку, предлагая скачать репозиторий, после открыть в редакторе кода и прописать команды npm i и npm start 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
